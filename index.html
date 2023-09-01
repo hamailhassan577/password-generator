@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-div">
+            <div class="main-content">
+                <h1 class="main-heading">Generate a <span class="green">random password</span></h1>
+                <p class="main-description">Never use an insecure password again.</p>
+                <button id="pass-gen-btn">Generate passwords</button>
+                <button id="reset-btn">Reset</button>
+                <hr>
+            </div>
+            <div class="password-wrapper">
+                <div class="pass-container">
+                    <input type="text" class="pass-block" readonly id="password-one"  value="******"/>
+                    <input type="text" class="pass-block" readonly id="password-two"  value="******"/>  
+                </div>
+                <div class="message-container">
+                    <p class="message" id="message">Message</p>
+                </div>
+            </div>
+            
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
